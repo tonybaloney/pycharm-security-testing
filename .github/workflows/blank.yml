@@ -1,0 +1,16 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: PyCharm Python Security Scanner
+      uses: tonybaloney/pycharm-security@1.4.3
+      with:
+        # Path to code to scan
+        path: . # default is .
