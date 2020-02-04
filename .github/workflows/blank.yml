@@ -14,3 +14,4 @@ jobs:
       with:
         # Path to code to scan
         path: . # default is .
+        profile: customProfile.xml
