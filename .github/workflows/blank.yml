@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: PyCharm Python Security Scanner
-      uses: tonybaloney/pycharm-security@1.5.0
+      uses: tonybaloney/pycharm-security@master
       with:
         # Path to code to scan
         path: . # default is .
