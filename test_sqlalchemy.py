@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine, select
 from sqlalchemy import Table, Column, Integer, String, MetaData, ForeignKey
-from sqlalchemy.sql import text
+from sqlalchemy import text
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 import logging

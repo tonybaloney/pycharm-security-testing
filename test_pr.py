@@ -1,4 +1,3 @@
-from django.db import connection
 from .models import User
 
 def my_view(self):
